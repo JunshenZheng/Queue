@@ -1,7 +1,7 @@
 #include"MyQueue.h"
 #include<assert.h>
 #include<stdio.h>
-//clude <crtdbg.h>//add this header file to detect memory leaks
+//include <crtdbg.h>//add this header file to detect memory leaks
 
 int main(int argc, char* argv[])
 {
