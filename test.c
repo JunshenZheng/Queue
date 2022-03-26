@@ -1,7 +1,7 @@
 #include"MyQueue.h"
 #include<assert.h>
 #include<stdio.h>
-#include <crtdbg.h>//add this header file to detect memory leaks
+//clude <crtdbg.h>//add this header file to detect memory leaks
 
 int main(int argc, char* argv[])
 {
@@ -50,10 +50,10 @@ int main(int argc, char* argv[])
 	DestroyQueue(Q);
 	assert(Q->base == NULL);
 	free(Q);
-	if (!_CrtDumpMemoryLeaks())
-	{
-		printf("100!\n");
-	}
+	// (!_CrtDumpMemoryLeaks())
+	//{
+		//intf("100!\n");
+	//}
 	system("PAUSE");
 	return 0;
 }
